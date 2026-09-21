@@ -330,6 +330,8 @@ private:
 
     bool m_useWayland = false;
     bool m_onBattery = false;
+    bool m_batteryInited = false;
+    bool m_isSyncing = false;
     bool m_lidIsPresent = false;
     BatteryIsPresentMap m_batteryIsPresent;
     BatteryPercentageMap m_batteryPercentage;
